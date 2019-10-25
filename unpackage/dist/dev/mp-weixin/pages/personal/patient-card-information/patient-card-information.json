@@ -1,0 +1,6 @@
+{
+  "usingComponents": {
+    "bar-code": "/components/tki-barcode/tki-barcode"
+  },
+  "component": true
+}

@@ -1,0 +1,9 @@
+{
+  "navigationBarTitleText": "南通市妇科保健院",
+  "usingComponents": {
+    "my-patient": "/pages/home/my-patient/my-patient",
+    "doctor-information": "/pages/doctor-information/doctor-information",
+    "waiting-queue": "/pages/waiting-queue/waiting-queue",
+    "test": "/pages/test/test"
+  }
+}

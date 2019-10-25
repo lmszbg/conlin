@@ -1,0 +1,7 @@
+{
+  "navigationBarTitleText": "医生主页",
+  "usingComponents": {
+    "my-uni-popup": "/components/my-uni-popup/uni-popup",
+    "time-chose-doctor": "/components/time-chose-doctor/time-chose-doctor"
+  }
+}

@@ -1,0 +1,84 @@
+{
+	"pages": [ //pages数组中第一项表示应用启动页，参考：https://uniapp.dcloud.io/collocation/pages
+		{
+			"path": "pages/tabBar/index/index",
+			"style": {
+				"navigationBarTitleText": "南通市妇科保健院"
+			}
+		}, {
+			"path": "pages/tabBar/home/home",
+			"style": {
+				"navigationBarTitleText": "南通市妇科保健院"
+			}
+		}, {
+			"path": "pages/tabBar/personal/personal",
+			"style": {
+				"navigationBarTitleText": "南通市妇科保健院"
+			}
+		}, {
+			"path": "pages/personal/bind-visit-card/bind-visit-card",
+			"style": {
+				"navigationBarTitleText": "绑定就诊卡"
+			}
+		},{
+			"path": "pages/doctor-information/doctor-information",
+			"style": {
+				"navigationBarTitleText": "医生主页"
+			}
+		},{
+			"path": "pages/waiting-queue-information/waiting-queue-information",
+			"style": {
+				"navigationBarTitleText": "排队叫号详情"
+			}
+		},{
+			"path": "pages/test/test",
+			"style": {
+				"navigationBarTitleText": "排队叫号详情"
+			}
+		},{
+			"path": "pages/inspection-information/inspection-information",
+			"style": {
+				"navigationBarTitleText": "检验报告详情"
+			}
+		},{
+			"path": "pages/inspection-test/inspection-test",
+			"style": {
+				"navigationBarTitleText": "检查报告详情"
+			}
+		}, {
+			"path": "pages/inspection-information-time/inspection-information-time",
+			"style": {
+				"navigationBarTitleText": "进度详情"
+			}
+		}
+	],
+	"globalStyle": {
+		"navigationBarTextStyle": "black",
+		"navigationBarTitleText": "南通市妇科保健院",
+		"navigationBarBackgroundColor": "#ffffff",
+		"backgroundColor": "#EEEEEE"
+	},
+	"tabBar": {
+		"color": "#cdcdcd",
+		"selectedColor": "#39cffc",
+		"borderStyle": "white",
+		"backgroundColor": "#ffffff",
+		"list": [{
+				"pagePath": "pages/tabBar/index/index",
+				"iconPath": "static/img/icon/home.png",
+				"selectedIconPath": "static/img/icon/homeHL.png",
+				"text": "首页"
+			}, {
+				"pagePath": "pages/tabBar/home/home",
+				"iconPath": "static/img/icon/hospitalinfo.png",
+				"selectedIconPath": "static/img/icon/hospitalinfoHL.png",
+				"text": "医院信息"
+			}, {
+				"pagePath": "pages/tabBar/personal/personal",
+				"iconPath": "static/img/icon/userinfo.png",
+				"selectedIconPath": "static/img/icon/userinfoHL.png",
+				"text": "个人中心"
+			}
+		]
+	}
+}

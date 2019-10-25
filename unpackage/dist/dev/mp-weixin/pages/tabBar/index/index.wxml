@@ -1,0 +1,1 @@
+<view class="container"><waiting-queue vue-id="1" bind:__l="__l"></waiting-queue></view>

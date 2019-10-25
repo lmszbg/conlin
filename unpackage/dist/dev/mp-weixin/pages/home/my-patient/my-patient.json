@@ -1,0 +1,7 @@
+{
+  "usingComponents": {
+    "visit-card-information-strip": "/components/visit-card-information-strip/visit-card-information-strip",
+    "my-right-icon": "/components/my-right-icon/uni-icons"
+  },
+  "component": true
+}

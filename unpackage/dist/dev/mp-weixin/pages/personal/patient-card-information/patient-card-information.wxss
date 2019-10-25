@@ -1,0 +1,190 @@
+
+.patient-card-information{
+	display: -webkit-box;
+	display: -webkit-flex;
+	display: -ms-flexbox;
+	display: flex;
+	-webkit-box-orient: vertical;
+	-webkit-box-direction: normal;
+	-webkit-flex-direction: column;
+	    -ms-flex-direction: column;
+	        flex-direction: column;
+}
+.patient-card-information-strip {
+	display: -webkit-box;
+	display: -webkit-flex;
+	display: -ms-flexbox;
+	display: flex;
+	height: 170rpx;
+	padding: 20rpx 18rpx 0rpx 18rpx;
+}
+.patient-card-information-strip-body {
+	width: 100%;
+	background-color: white;
+	border-radius: 2px;
+	display: -webkit-box;
+	display: -webkit-flex;
+	display: -ms-flexbox;
+	display: flex;
+	-webkit-box-pack: center;
+	-webkit-justify-content: center;
+	    -ms-flex-pack: center;
+	        justify-content: center;
+}
+.patient-card-information-strip-note {
+	display: -webkit-box;
+	display: -webkit-flex;
+	display: -ms-flexbox;
+	display: flex;
+	-webkit-box-pack: justify;
+	-webkit-justify-content: space-between;
+	    -ms-flex-pack: justify;
+	        justify-content: space-between;
+	height: 120rpx;
+	-webkit-align-self: center;
+	    -ms-flex-item-align: center;
+	        align-self: center;
+	width: 640rpx;
+}
+.patient-card-information-strip-left {
+	height: 100%;
+}
+.patient-card-information-strip-patient {
+	display: -webkit-box;
+	display: -webkit-flex;
+	display: -ms-flexbox;
+	display: flex;
+	font-weight: 600;
+	font-size: 40rpx;
+}
+.patient-card-information-strip-patient-default {
+	margin-top: 6rpx;
+	margin-left: 20rpx;
+	-webkit-align-self: center;
+	    -ms-flex-item-align: center;
+	        align-self: center;
+	height: 32rpx;
+	border: solid #CCCCCC 2rpx;
+	border-radius: 4rpx;
+	font-size: 28rpx;
+	padding: 0px 4rpx 6rpx 8rpx;
+	font-weight: 400;
+	color: #CCCCCC;
+}
+.patient-card-information-strip-patient-id {
+	color: #CCCCCC;
+	font-size: 32rpx;
+	margin-top: 22rpx;
+	display: -webkit-box;
+	display: -webkit-flex;
+	display: -ms-flexbox;
+	display: flex;
+}
+.patient-card-information-strip-patient-id-note {}
+.patient-card-information-strip-right {
+	-webkit-align-self: center;
+	    -ms-flex-item-align: center;
+	        align-self: center;
+}
+.patient-card-information-bar-code{
+	display: -webkit-box;
+	display: -webkit-flex;
+	display: -ms-flexbox;
+	display: flex;
+	-webkit-box-pack: center;
+	-webkit-justify-content: center;
+	    -ms-flex-pack: center;
+	        justify-content: center;
+	padding: 25rpx 0 25rpx 0;
+	height: 164rpx;
+}
+.my-barcode{
+	-webkit-box-align: center;
+	-webkit-align-items: center;
+	    -ms-flex-align: center;
+	        align-items: center;
+}
+.add-patient-card-note-container{
+	display: -webkit-box;
+	display: -webkit-flex;
+	display: -ms-flexbox;
+	display: flex;
+	-webkit-box-orient: vertical;
+	-webkit-box-direction: normal;
+	-webkit-flex-direction: column;
+	    -ms-flex-direction: column;
+	        flex-direction: column;
+	padding: 0rpx 18rpx 0rpx 18rpx;
+}
+.add-patient-card-note{
+	width: 100%;
+	background-color: white;
+	border-radius: 2px;
+	display: -webkit-box;
+	display: -webkit-flex;
+	display: -ms-flexbox;
+	display: flex;
+	-webkit-box-orient: vertical;
+	-webkit-box-direction: normal;
+	-webkit-flex-direction: column;
+	    -ms-flex-direction: column;
+	        flex-direction: column;
+}
+.add-patient-card-note-strip{
+	display: -webkit-box;
+	display: -webkit-flex;
+	display: -ms-flexbox;
+	display: flex;
+	-webkit-box-pack: justify;
+	-webkit-justify-content: space-between;
+	    -ms-flex-pack: justify;
+	        justify-content: space-between;
+	width: 640rpx;
+	-webkit-align-self: center;
+	    -ms-flex-item-align: center;
+	        align-self: center;
+	padding: 0rpx 0 25rpx 0;
+	font-size: 32rpx;
+}
+.add-patient-card-note-strip-bottom{
+	border-top: solid #CCCCCC 1px;
+	padding-top: 20rpx;
+}
+.patient-card-information-bottom{
+	margin-top: 50rpx;
+	padding: 0rpx 18rpx 0rpx 18rpx;
+}
+.patient-card-information-bottom-body{
+	display: -webkit-box;
+	display: -webkit-flex;
+	display: -ms-flexbox;
+	display: flex;
+	-webkit-box-pack: justify;
+	-webkit-justify-content: space-between;
+	    -ms-flex-pack: justify;
+	        justify-content: space-between;
+	padding: 0rpx 32rpx 0rpx 32rpx;
+}
+.patient-card-information-bottom-button{
+	background-color: white;
+	width: 314rpx;
+	height: 90rpx;
+	border-radius: 5px;
+	display: -webkit-box;
+	display: -webkit-flex;
+	display: -ms-flexbox;
+	display: flex;
+	-webkit-box-pack: center;
+	-webkit-justify-content: center;
+	    -ms-flex-pack: center;
+	        justify-content: center;
+}
+.patent-card-information-bottom-button-text{
+	-webkit-align-self: center;
+	    -ms-flex-item-align: center;
+	        align-self: center;
+}
+.button-add{
+	color:#00CC99;
+}
+

@@ -1,0 +1,1 @@
+<view><uni-search-bar vue-id="1" placeholder="搜索科室、医生" clearButton="auto" data-event-opts="{{[['^confirm',[['search']]]]}}" bind:confirm="__e" bind:__l="__l"></uni-search-bar></view>

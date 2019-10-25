@@ -1,0 +1,134 @@
+
+.patient-card-container {
+	display: -webkit-flex;
+	display: -webkit-box;
+	display: -ms-flexbox;
+	display: flex;
+	/* margin-top: 20rpx; */
+	-webkit-box-pack: center;
+	-webkit-justify-content: center;
+	    -ms-flex-pack: center;
+	        justify-content: center;
+}
+.show-patient-card {
+	width: 690rpx;
+	height: 150rpx;
+	/* background-image: linear-gradient(to right, #00CC99, #00CC66); */
+	/* background-color: #00CC99; */
+	/* color: #FFFDEF; */
+	display: -webkit-box;
+	display: -webkit-flex;
+	display: -ms-flexbox;
+	display: flex;
+	-webkit-box-align: center;
+	-webkit-align-items: center;
+	    -ms-flex-align: center;
+	        align-items: center;
+	border-radius: 10rpx;
+}
+.show-name {
+	width: 100%;
+	height: 50%;
+	margin: 10rpx 0 0 25rpx;
+	font-size: 36rpx;
+	float: left;
+}
+.show-tip {
+	font-size: 20rpx;
+	margin: 0 20rpx;
+	padding: 2rpx 3rpx;
+	border-style: solid;
+	border-color: #666666;
+	border-width: 1rpx;
+	float: left;
+}
+.show-cardid {
+	width: 100%;
+	height: 50%;
+	margin: 10rpx 0 0 25rpx;
+	font-size: 28rpx;
+	float: left;
+}
+.switch-card {
+	font-size: 28rpx;
+	margin: 0 50rpx 0 0;
+	padding: 5rpx 10rpx;
+	border-style: solid;
+	border-color: #666666;
+	border-width: 1rpx;
+	border-radius: 10rpx;
+	float: right;
+}
+.add-patient-card-text {
+	width: 100%;
+	height: 100%;
+	font-size: 40rpx;
+	text-align: center;
+	-webkit-transform: translateY(35%);
+	    -ms-transform: translateY(35%);
+	        transform: translateY(35%);
+}
+
+/* 底部分享 */
+.uni-share {
+	width: 750rpx;
+	background: #fff;
+}
+.uni-share-title {
+	width: 100%;
+	line-height: 60rpx;
+	font-size: 28rpx;
+	padding: 15rpx 0;
+	text-align: center;
+}
+.uni-share-cancel{
+	margin-right: 20rpx;
+	float: right;
+}
+.uni-share-content {
+	width: 100%;
+	border-top: 1rpx solid lightgray;
+	border-bottom: 1rpx solid lightgray;
+}
+.uni-share-content-box {
+	width: 100%;
+	height: 150rpx;
+	-webkit-box-align: center;
+	-webkit-align-items: center;
+	    -ms-flex-align: center;
+	        align-items: center;
+	border-top: 1rpx solid lightgray;
+	border-bottom: 1rpx solid lightgray;
+}
+.uni-share-content-box-name {
+	font-size: 36rpx;
+	margin: 20rpx 50rpx;
+	height: 50%;
+}
+.uni-share-content-box-cardid {
+	font-size: 28rpx;
+	margin: 20rpx 50rpx;
+	height: 50%;
+}
+.uni-share-content-box-chick {
+	margin: 30rpx 100rpx;
+	float: right;
+}
+.uni-share-content-box2 {
+	width: 100%;
+	/* height: 100rpx; */
+	padding: 20rpx 20rpx;
+	-webkit-box-align: center;
+	-webkit-align-items: center;
+	    -ms-flex-align: center;
+	        align-items: center;
+	border-top: 1rpx solid lightgray;
+}
+.my-butn {
+	width: 100%;
+	font-size: 36rpx;
+	line-height: 40rpx;
+	text-align: center;
+	color: #00CC00;
+}
+

@@ -1,0 +1,6 @@
+{
+  "usingComponents": {
+    "my-right-icon": "/components/my-right-icon/uni-icons"
+  },
+  "component": true
+}

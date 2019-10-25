@@ -1,0 +1,49 @@
+{
+  "pages": [
+    "pages/tabBar/index/index",
+    "pages/tabBar/home/home",
+    "pages/tabBar/personal/personal",
+    "pages/personal/bind-visit-card/bind-visit-card",
+    "pages/doctor-information/doctor-information",
+    "pages/waiting-queue-information/waiting-queue-information",
+    "pages/test/test",
+    "pages/inspection-information/inspection-information",
+    "pages/inspection-test/inspection-test",
+    "pages/inspection-information-time/inspection-information-time"
+  ],
+  "subPackages": [],
+  "window": {
+    "navigationBarTextStyle": "black",
+    "navigationBarTitleText": "南通市妇科保健院",
+    "navigationBarBackgroundColor": "#ffffff",
+    "backgroundColor": "#EEEEEE"
+  },
+  "tabBar": {
+    "color": "#cdcdcd",
+    "selectedColor": "#39cffc",
+    "borderStyle": "white",
+    "backgroundColor": "#ffffff",
+    "list": [
+      {
+        "pagePath": "pages/tabBar/index/index",
+        "iconPath": "static/img/icon/home.png",
+        "selectedIconPath": "static/img/icon/homeHL.png",
+        "text": "首页"
+      },
+      {
+        "pagePath": "pages/tabBar/home/home",
+        "iconPath": "static/img/icon/hospitalinfo.png",
+        "selectedIconPath": "static/img/icon/hospitalinfoHL.png",
+        "text": "医院信息"
+      },
+      {
+        "pagePath": "pages/tabBar/personal/personal",
+        "iconPath": "static/img/icon/userinfo.png",
+        "selectedIconPath": "static/img/icon/userinfoHL.png",
+        "text": "个人中心"
+      }
+    ]
+  },
+  "usingComponents": {},
+  "sitemapLocation": "sitemap7.json"
+}

@@ -1,0 +1,6 @@
+{
+  "navigationBarTitleText": "绑定就诊卡",
+  "usingComponents": {
+    "uni-notice-bar": "/components/notice-bar/uni-notice-bar"
+  }
+}

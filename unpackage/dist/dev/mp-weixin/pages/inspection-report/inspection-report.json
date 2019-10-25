@@ -1,0 +1,7 @@
+{
+  "usingComponents": {
+    "switch-patient": "/components/switch-patient/switch-patient",
+    "my-select": "/components/my-select/xfl-select"
+  },
+  "component": true
+}

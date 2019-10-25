@@ -1,0 +1,8 @@
+{
+  "navigationBarTitleText": "南通市妇科保健院",
+  "usingComponents": {
+    "patient-card-information": "/pages/personal/patient-card-information/patient-card-information",
+    "doctor-information": "/pages/doctor-information/doctor-information",
+    "inspection-report": "/pages/inspection-report/inspection-report"
+  }
+}
