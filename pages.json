@@ -50,6 +50,11 @@
 			"style": {
 				"navigationBarTitleText": "进度详情"
 			}
+		}, {
+			"path": "pages/inspection-report/inspection-report",
+			"style": {
+				"navigationBarTitleText": "进度详情"
+			}
 		}
 	],
 	"globalStyle": {

@@ -3,7 +3,7 @@
 		<!-- <doctor-information></doctor-information> -->
 		<!-- <my-patient></my-patient> -->
 		<!-- <waiting-queue></waiting-queue> -->
-		<navigator url="../../test/test">fklajflkaj</navigator>
+		<navigator url="../../inspection-report/inspection-report">fklajflkaj</navigator>
 	</view>
 </template>
 

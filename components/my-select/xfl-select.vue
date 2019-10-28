@@ -7,7 +7,7 @@
 			@focus="onFocus" @blur="onBlur" @input="onInput" @confirm="$emit('confirm', $event)"
 		>
 		<!-- 显示框 -->
-		<div v-else class="input" :class="{placeholder: selectText === placeholder}" @click="onUpperClick" style='justify-content: center;'>
+		<div v-else class="input" :class="{placeholder: selectText === placeholder}" @click.stop="onUpperClick" style='justify-content: center;'>
 			<div>
 						{{selectText}}
 						<!-- 右侧的小三角图标 -->
@@ -104,7 +104,11 @@
 			clearable: {       // 是否显示右侧的清除按钮
 			  type: Boolean,  
 			  default: false
-			},		
+			},
+			theZindex:{
+				type: Number,
+				default: 1
+			}
 		},
 		data() {
 			return {
@@ -239,6 +243,7 @@
 			
 			//当显示的不是输入框时，上面的点击事件
 			onUpperClick(){
+				this.$emit('changeZIndex', 3)
 				if(this.disabled){
 					return;
 				}
@@ -323,7 +328,7 @@
 					this.switchMgr.open(); // 点在禁用项上，就不隐藏
 					return;
 				}
-				this.switchMgr.close(100);   // 开始隐藏，因为会延迟隐藏，所以可以写在这里
+				this.switchMgr.close(0);   // 开始隐藏，因为会延迟隐藏，所以可以写在这里
 				if(this.disabled){ //如果本项被禁用 或 整个列表框被禁用
 					return;
 				}
@@ -352,7 +357,7 @@
 				Vue.__xfl_select.$emit('open', this);
 			},
 			myClose(){
-				this.switchMgr.close(100);
+				this.switchMgr.close(0);
 			}
 			/************************** 列表的操作(显示/隐藏/点击) ****************************/
 		}

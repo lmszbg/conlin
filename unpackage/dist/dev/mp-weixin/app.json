@@ -9,7 +9,8 @@
     "pages/test/test",
     "pages/inspection-information/inspection-information",
     "pages/inspection-test/inspection-test",
-    "pages/inspection-information-time/inspection-information-time"
+    "pages/inspection-information-time/inspection-information-time",
+    "pages/inspection-report/inspection-report"
   ],
   "subPackages": [],
   "window": {
@@ -45,5 +46,5 @@
     ]
   },
   "usingComponents": {},
-  "sitemapLocation": "sitemap7.json"
+  "sitemapLocation": "sitemap98.json"
 }

@@ -24,7 +24,7 @@
 /* 垂直间距 */
 /* 透明度 */
 /* 文章场景相关 */
-.box-show {
+.box-show.data-v-9bb12612 {
   background-color: white;
   border-radius: 4rpx;
   width: 720rpx;
@@ -32,7 +32,7 @@
       -ms-flex-item-align: center;
           align-self: center;
 }
-.inspection-patient {
+.inspection-patient.data-v-9bb12612 {
   display: -webkit-box;
   display: -webkit-flex;
   display: -ms-flexbox;
@@ -46,7 +46,7 @@
           align-self: center;
   margin: 16rpx 0 16rpx 0;
 }
-.inspection-chose {
+.inspection-chose.data-v-9bb12612 {
   display: -webkit-box;
   display: -webkit-flex;
   display: -ms-flexbox;
@@ -56,18 +56,18 @@
       -ms-flex-pack: center;
           justify-content: center;
 }
-.inspection-strip {
+.inspection-strip.data-v-9bb12612 {
   height: 140rpx;
   margin: 16rpx 0 0 0;
 }
-.inspection-strip-container {
+.inspection-strip-container.data-v-9bb12612 {
   display: -webkit-box;
   display: -webkit-flex;
   display: -ms-flexbox;
   display: flex;
   height: 100%;
 }
-.inspection-strip-text {
+.inspection-strip-text.data-v-9bb12612 {
   width: 560rpx;
   display: -webkit-box;
   display: -webkit-flex;
@@ -83,7 +83,7 @@
           align-self: center;
   margin-left: 96rpx;
 }
-.inspection-strip-text-left {
+.inspection-strip-text-left.data-v-9bb12612 {
   display: -webkit-box;
   display: -webkit-flex;
   display: -ms-flexbox;
@@ -99,20 +99,20 @@
       -ms-flex-pack: justify;
           justify-content: space-between;
 }
-.inspection-strip-text-item {
+.inspection-strip-text-item.data-v-9bb12612 {
   margin: 2rpx 0 2rpx 0;
   display: -webkit-box;
   display: -webkit-flex;
   display: -ms-flexbox;
   display: flex;
 }
-.container {
+.container.data-v-9bb12612 {
   position: absolute;
   width: 90rpx;
   height: 90rpx;
   z-index: 11;
 }
-.superscript {
+.superscript.data-v-9bb12612 {
   position: absolute;
   top: 0px;
   left: 0px;
@@ -121,11 +121,11 @@
   overflow: hidden;
 }
 /* 使用背景色渐变 */
-.superscript .gradual {
+.superscript .gradual.data-v-9bb12612 {
   width: 100%;
   height: 100%;
 }
-.superscript .desc {
+.superscript .desc.data-v-9bb12612 {
   position: absolute;
   width: 100%;
   height: 100%;

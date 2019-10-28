@@ -1,18 +1,20 @@
 <template>
 	<view class="" style="display: flex; flex-direction: column;">
 		<!-- 个人信息 -->
-		<view class="box-show inspection-patient">
+		<view class="box-show inspection-patient" style="z-index: 2;margin-bottom:112rpx;">
 			<switch-patient :cardinfo="cardinfo" :isShowTip="true" :indexId="0" :defaultId="0"></switch-patient>
 		</view>
-		<view class="inspection-chose">
-			<view class="inspection-chose-time" style="border-right: solid rgba(0,0,0,.1) 2rpx;">
-				<my-select :list="mouthList" :initValue="0" ref="select1"></my-select>
-			</view>
-			<view class="inspection-chose-type" style="border-left: solid rgba(0,0,0,.1) 2rpx;">
-				<my-select :list="typeList" :initValue="0"></my-select>
+		<view class="" style="position: absolute;align-self: center;width: 750rpx;" :style="{'z-index':theZIndex,'height': theHight}" @click="testClick">
+			<view class="inspection-chose" style="z-index: 4;margin-top: 190rpx;">
+				<view class="inspection-chose-time" style="border-right: solid rgba(0,0,0,.1) 2rpx;">
+					<my-select :list="mouthList" :initValue="0" ref="select1" @changeZIndex="changeZIndex"></my-select>
+				</view>
+				<view class="inspection-chose-type" style="border-left: solid rgba(0,0,0,.1) 2rpx;">
+					<my-select :list="typeList" :initValue="0" ref="select2" @changeZIndex="changeZIndex"></my-select>
+				</view>
 			</view>
 		</view>
-		<view class="inspection-strip box-show" v-for="(item, index) in inspectionList" @click="gotoInformation(item.type)">
+		<view class="inspection-strip box-show" v-for="(item, index) in inspectionList" @click="gotoInformation(item.type)" style="z-index: 2;">
 			<view class="container">
 				<view class="superscript">
 					<view class="gradual" :style="{ background: 'linear-gradient(135deg, ' + jiaobiao[item.status] + ' 50%, transparent 50%)' }"></view>
@@ -58,6 +60,9 @@ export default {
 	},
 	data() {
 		return {
+			theZIndex: 1,
+			theHight: '80rpx',
+			theWidth: 0,
 			cardinfo: [
 				{
 					name: '张三',
@@ -89,7 +94,19 @@ export default {
 					type: 0,
 					status: 0,
 					time: '2019-10-14 11:31:17',
+					project: '孕前检查'
+				},
+				{
+					type: 1,
+					status: 1,
+					time: '2019-10-14 11:31:17',
 					project: '血常规+CRP'
+				},
+				{
+					type: 0,
+					status: 0,
+					time: '2019-10-14 11:31:17',
+					project: '孕前检查'
 				},
 				{
 					type: 1,
@@ -104,9 +121,9 @@ export default {
 		gotoInformation: function (type){
 			let url = ''
 			if(type == 0){
-				url = '../../inspection-test/inspection-test'
+				url = '../../../../inspection-test/inspection-test'
 			}else if(type == 1){
-				url = '../../inspection-information/inspection-information'	
+				url = '../../../../inspection-information/inspection-information'	
 			}
 			uni.navigateTo({
 				url: url
@@ -114,12 +131,36 @@ export default {
 		},
 		closeSelect: function(){
 			this.$refs.select1.myClose()
+		},
+		testClick: function(){
+			this.$refs.select1.myClose()
+			this.$refs.select2.myClose()
+			this.theZIndex = 1
+		},
+		changeZIndex: function(value){
+			this.theZIndex = value
+		}
+	},
+	onShow() {
+		// this.closeSelect()
+		let h = 1000
+		this.theHight = 1000
+		uni.getSystemInfo({
+			success(res) {
+				h = res.windowHeight
+			}
+		})
+		let trueHeight = 750/375*h
+		if(this.inspectionList.length*140+270>trueHeight){
+			this.theHight = this.inspectionList.length*140+270+'rpx'
+		}else{
+			this.theHight = trueHeight+'rpx'
 		}
 	}
 };
 </script>
 
-<style lang="scss">
+<style lang="scss" scoped>
 $box_background_color: white; //框背景颜色
 $box_radius: 4rpx; //框圆角
 $box_width: 720rpx; //框高度

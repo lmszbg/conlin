@@ -3,6 +3,7 @@
   "usingComponents": {
     "patient-card-information": "/pages/personal/patient-card-information/patient-card-information",
     "doctor-information": "/pages/doctor-information/doctor-information",
-    "inspection-report": "/pages/inspection-report/inspection-report"
+    "inspection-report": "/pages/inspection-report/inspection-report",
+    "bind-visit-card": "/pages/personal/bind-visit-card/bind-visit-card"
   }
 }

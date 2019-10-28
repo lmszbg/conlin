@@ -1,1 +1,1 @@
-<view><inspection-report vue-id="1" bind:__l="__l"></inspection-report></view>
+<view><bind-visit-card vue-id="1" bind:__l="__l"></bind-visit-card></view>

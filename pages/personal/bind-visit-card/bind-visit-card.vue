@@ -1,7 +1,7 @@
 <template>
 	<view class="container">
 		<view class="notice-bar">
-			<uni-notice-bar :text=noticeBar></uni-notice-bar>
+			<uni-notice-bar :text='noticeBar'></uni-notice-bar>
 		</view>
 		<view class="bind-visit-form-type">
 			<view class="bind-visit-form-type-body">
@@ -30,7 +30,7 @@
 						身份证
 					</view>
 					<view class="bind-visit-form-strip-right">
-						<input type="text" value="" placeholder="请输入身份证号" maxlength="18"/>
+						<input type="idcard"  placeholder="请输入身份证号" maxlength="18"/>
 					</view>
 				</view>
 				<view class="bind-visit-form-strip">
@@ -38,7 +38,7 @@
 						手机号
 					</view>
 					<view class="bind-visit-form-strip-right " style="width: 300rpx;">
-						<input type="text" value="" placeholder="请输入手机号" maxlength="11" />
+						<input  type="number"  placeholder="请输入手机号" maxlength="11" />
 					</view>
 					<view class="bind-visit-form-strip-right-verification" @click="changeVerfication">
 						<text>{{ verficationInfo }}</text>
@@ -49,7 +49,7 @@
 						请输入验证码
 					</view>
 					<view class="bind-visit-form-strip-right">
-						<input type="text" value="" placeholder="请输入验证码" />
+						<input type="number" value="" placeholder="请输入验证码" maxlength="6"/>
 					</view>
 				</view>
 				<view class="bind-visit-form-strip" style="border-bottom: none;">
@@ -78,7 +78,7 @@
 
 	export default {
 		components: {
-			uniNoticeBar
+			uniNoticeBar,
 		},
 		data() {
 			return {
@@ -92,7 +92,7 @@
 				verficationInfo: "获取验证码",
 				isClickVerfication: false,
 				verficationInterval: null,
-				verficationNowTime: 3
+				verficationNowTime: 3,
 			}
 		},
 		watch:{
@@ -134,7 +134,10 @@
 				uni.showToast({
 					title:"绑定成功"
 				})
-			}
+			},
+		},
+		mounted() {
+			
 		}
 	}
 </script>

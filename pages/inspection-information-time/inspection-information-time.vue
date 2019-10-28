@@ -62,12 +62,12 @@
 						type: 1,
 						time: '2019-11-2 2:11:37',
 						note: '已收集',
-						doctor: '周通'
+						doctor: '王鹏'
 					},{
 						type: 0,
 						time: '2019-11-2 2:11:37',
 						note: '未收集',
-						doctor: '周通'
+						doctor: '赵思思'
 					}
 					
 				]

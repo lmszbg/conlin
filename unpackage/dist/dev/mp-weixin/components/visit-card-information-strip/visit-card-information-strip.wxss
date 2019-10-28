@@ -24,7 +24,7 @@
 /* 垂直间距 */
 /* 透明度 */
 /* 文章场景相关 */
-.visit-card-information-strip.data-v-0e8cbae0 {
+.visit-card-information-strip.data-v-2ae61b62 {
   display: -webkit-box;
   display: -webkit-flex;
   display: -ms-flexbox;
@@ -32,7 +32,7 @@
   height: 170rpx;
   padding: 20rpx 18rpx 0rpx 18rpx;
 }
-.visit-card-information-strip-body.data-v-0e8cbae0 {
+.visit-card-information-strip-body.data-v-2ae61b62 {
   width: 100%;
   background-color: white;
   border-radius: 2px;
@@ -45,7 +45,7 @@
       -ms-flex-pack: center;
           justify-content: center;
 }
-.visit-card-information-strip-note.data-v-0e8cbae0 {
+.visit-card-information-strip-note.data-v-2ae61b62 {
   display: -webkit-box;
   display: -webkit-flex;
   display: -ms-flexbox;
@@ -60,10 +60,10 @@
           align-self: center;
   width: 640rpx;
 }
-.visit-card-information-strip-left.data-v-0e8cbae0 {
+.visit-card-information-strip-left.data-v-2ae61b62 {
   height: 100%;
 }
-.visit-card-information-strip-patient.data-v-0e8cbae0 {
+.visit-card-information-strip-patient.data-v-2ae61b62 {
   display: -webkit-box;
   display: -webkit-flex;
   display: -ms-flexbox;
@@ -71,7 +71,7 @@
   font-weight: 600;
   font-size: 40rpx;
 }
-.visit-card-information-strip-patient-default.data-v-0e8cbae0 {
+.visit-card-information-strip-patient-default.data-v-2ae61b62 {
   margin-top: 6rpx;
   margin-left: 20rpx;
   -webkit-align-self: center;
@@ -85,7 +85,7 @@
   font-weight: 400;
   color: #CCCCCC;
 }
-.visit-card-information-strip-patient-id.data-v-0e8cbae0 {
+.visit-card-information-strip-patient-id.data-v-2ae61b62 {
   color: #CCCCCC;
   font-size: 32rpx;
   margin-top: 22rpx;
@@ -94,7 +94,7 @@
   display: -ms-flexbox;
   display: flex;
 }
-.visit-card-information-strip-right.data-v-0e8cbae0 {
+.visit-card-information-strip-right.data-v-2ae61b62 {
   -webkit-align-self: center;
       -ms-flex-item-align: center;
           align-self: center;
